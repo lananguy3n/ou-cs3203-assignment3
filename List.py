@@ -48,7 +48,7 @@ def main():
 
     #Print reverse function
     list.reverse()
-    
+    print("Reversed list: ", list)
 
 if __name__ == "__main__":
     main()
