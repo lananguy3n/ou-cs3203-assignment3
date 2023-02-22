@@ -28,7 +28,7 @@ def main():
     #Print sum
     print('Sum of the array is ', ans)
 
-    #Product Function 
+    #Product Function !!!!
     def _prod(arr):
         prod = 0
 
@@ -37,7 +37,7 @@ def main():
 
             return (prod)
 
-    # Array length
+    # Array length !!
     n = len(list)
     
     product = math.prod(list)
