@@ -1,48 +1,52 @@
 import math
 
-#Get input as list from user
-list = [] #Initalize Empty List
+def main():
+    #Get input as list from user
+    list = [] #Initalize Empty List
 
-n=int(input("Number of elements: "))
+    n=int(input("Number of elements: "))
 
-for i in range (0,n):       #Loop to iterate until given input range
-        e = int(input())
-        list.append(e)
+    for i in range (0,n):       #Loop to iterate until given input range
+            e = int(input())
+            list.append(e)
 
-print (list)
+    print (list)
 
-#Sum Function
-def _sum(arr):
-    sum = 0     #Loop to iterate through each number in array
- 
-    for i in arr:
-        sum = sum + i
- 
-    return(sum)
- 
- 
-# Array length
-n = len(list)
- 
-ans = _sum(list)
- 
-#Print sum
-print('Sum of the array is ', ans)
+        #Sum Function
+    def _sum(arr):
+        sum = 0     #Loop to iterate through each number in array
+    
+        for i in arr:
+            sum = sum + i
+    
+        return(sum)
 
-#Product Function 
-def _prod(arr):
-    prod = 0
+    # Array length
+    n = len(list)
+    ans = _sum(list)
+    
+    #Print sum
+    print('Sum of the array is ', ans)
 
-    for i in arr:
-        prod = prod + i
+    #Product Function 
+    def _prod(arr):
+        prod = 0
 
-        return (prod)
+        for i in arr:
+            prod = prod + i
 
-# Array length
-n = len(list)
- 
-product = math.prod(list)
- 
-#Print product
-print('Product of the array is ', product)
+            return (prod)
+
+    # Array length
+    n = len(list)
+    
+    product = math.prod(list)
+    
+    #Print product
+    print('Product of the array is ', product)
+
+if __name__ == "__main__":
+    main()
+
+
 
