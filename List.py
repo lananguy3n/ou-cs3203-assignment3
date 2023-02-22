@@ -1,4 +1,5 @@
 import math
+import array as arr
 
 def main():
     #Get input as list from user
@@ -44,6 +45,10 @@ def main():
     
     #Print product
     print('Product of the array is ', product)
+
+    #Print reverse function
+    list.reverse()
+    
 
 if __name__ == "__main__":
     main()
