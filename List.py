@@ -29,3 +29,20 @@ ans = _sum(list)
 #Print sum
 print('Sum of the array is ', ans)
 
+#Product Function 
+def _prod(arr):
+    prod = 0
+
+    for i in arr:
+        prod = prod + i
+
+        return (prod)
+
+# Array length
+n = len(list)
+ 
+product = math.prod(list)
+ 
+#Print product
+print('Product of the array is ', product)
+
